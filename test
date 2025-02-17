@@ -1,9 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <style>
+        /* Basic CSS for layout and styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        nav {
+            background-color: #f4f4f4;
+            padding: 1rem;
+        }
+        
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>ברוך הבא לאתר שלי!</h1>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my website! This is a simple template you can customize.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a sample about section. Add your content here.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Services</h2>
+            <p>List your services or products here.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Add your contact information here.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
